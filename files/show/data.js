@@ -1,0 +1,171 @@
+﻿$axure.loadCurrentPage({
+  "url":"show.html",
+  "generationDate":new Date(1397142243527.2),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"Clicked",
+"uploaded"],
+  "page":{
+    "packageId":"5b0c3660dff44acea7e688598825e1e0",
+    "type":"Axure:Page",
+    "name":"show",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0fa17f39f3f44b829113f0d22e11b765",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Regular', '应用字体'",
+            "location":{
+              "x":27,
+              "y":0},
+            "size":{
+              "width":1024,
+              "height":719}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"516e06814d7c473487a8dacdf8fb00da",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Regular', '应用字体'",
+                "location":{
+                  "x":27,
+                  "y":0},
+                "size":{
+                  "width":1024,
+                  "height":719}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/show/u0.png"}},
+{
+          "id":"06035cbe172f4e519d2ed0b7ba45a2a2",
+          "label":"register",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":850,
+              "y":20},
+            "size":{
+              "width":60,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 注册 in New Window/Tab",
+                      "target":{
+                        "targetType":"page",
+                        "url":"注册.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true},
+{
+          "id":"1db65bc4c8164a1ca6ce410c362e6412",
+          "label":"login",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":790,
+              "y":20},
+            "size":{
+              "width":60,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 登录 in New Window/Tab",
+                      "target":{
+                        "targetType":"page",
+                        "url":"登录.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true},
+{
+          "id":"cc4e44ae595047cf98a2de708080d372",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":90},
+            "size":{
+              "width":770,
+              "height":480}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Upload-First in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"upload-first.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0fa17f39f3f44b829113f0d22e11b765":{
+      "scriptId":"u0"},
+    "516e06814d7c473487a8dacdf8fb00da":{
+      "scriptId":"u1"},
+    "06035cbe172f4e519d2ed0b7ba45a2a2":{
+      "scriptId":"u2"},
+    "1db65bc4c8164a1ca6ce410c362e6412":{
+      "scriptId":"u3"},
+    "cc4e44ae595047cf98a2de708080d372":{
+      "scriptId":"u4"}}});
